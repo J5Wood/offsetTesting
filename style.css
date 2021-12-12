@@ -1,0 +1,52 @@
+html body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grand-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 225, 255);
+    height: 700px;
+    width: 700px;
+
+    position: relative;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    height: 600px;
+    width: 600px;
+    position: absolute;
+}
+
+.child {
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 76);
+    height: 500px;
+    width: 500px;
+    position: initial;
+}
+
+.grand-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(140, 0, 255);
+    height: 340px;
+    width: 340px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+}
